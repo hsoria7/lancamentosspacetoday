@@ -1,0 +1,31 @@
+<!-- Formulário para adicionar dados -->
+<form action="adicionar.php" method="post">
+  <label for="nome_live">Nome_live:</label>
+  <input type="text" id="nome_live" name="nome_live" required><br>
+
+  <label for="foguete">Foguete:</label>
+  <input type="text" id="foguete" name="foguete" required><br>
+
+  <label for="data">Data:</label>
+  <input type="date" id="data" name="data" required><br>
+
+  <label>Partiu:</label><br>
+  <input type="radio" id="partiu_sim" name="partiu" value="1" required>
+  <label for="partiu_sim">Sim</label><br>
+  <input type="radio" id="partiu_nao" name="partiu" value="0" required>
+  <label for="partiu_nao">Nao</label><br>
+
+  <label>Scrub:</label><br>
+  <input type="radio" id="scrub_sim" name="scrub" value="1" required>
+  <label for="scrub_sim">Sim</label><br>
+  <input type="radio" id="scrub_nao" name="scrub" value="0" required>
+  <label for="scrub_nao">Nao</label><br>
+
+  <label>Explodiu:</label><br>
+  <input type="radio" id="explodiu_sim" name="explodiu" value="1" required>
+  <label for="explodiu_sim">Sim</label><br>
+  <input type="radio" id="explodiu_nao" name="explodiu" value="0" required>
+  <label for="explodiu_nao">Nao</label><br>
+
+  <button type="submit">Adicionar</button>
+</form>
